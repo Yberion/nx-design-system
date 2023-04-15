@@ -2,7 +2,9 @@
   "name": "nx-design-system",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "affected:build": "nx affected --target=build --configuration=development"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~15.2.0",

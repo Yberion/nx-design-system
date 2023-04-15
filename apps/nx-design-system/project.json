@@ -20,6 +20,9 @@
           "apps/nx-design-system/src/assets"
         ],
         "styles": ["apps/nx-design-system/src/styles.scss"],
+        "stylePreprocessorOptions": {
+          "includePaths": ["libs/design-system/src/lib/styles"]
+        },
         "scripts": []
       },
       "configurations": {
